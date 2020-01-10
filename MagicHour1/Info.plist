@@ -41,5 +41,18 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>位置情報を使用します</string>
+	<key>NSLocationUsageDescription</key>
+	<string>位置情報を使用します</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>位置情報を使用します</string>
+	<key>LSApplicationCategoryType</key>
+	<string>位置情報を使用します</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>
