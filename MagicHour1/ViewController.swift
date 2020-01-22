@@ -14,9 +14,6 @@ import CoreLocation
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
-    
-    @IBOutlet weak var latLabel: UILabel!
-    @IBOutlet weak var lonLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
     @IBOutlet weak var conditionLabel: UILabel!
     @IBOutlet weak var temperatureLabel: UILabel!
@@ -82,9 +79,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
                     df.dateFormat = "yyyy-MM-dd HH:mm:ss"
                     self.sunsetLabel.text = df.string(from: stringTime1)
                 }
-                //lat and lon
-                self.latLabel.text = String(self.lat)
-                self.lonLabel.text = String(self.lon)
                 //other labels
                 self.locationLabel.text = jsonResponse["name"].stringValue
                 self.conditionLabel.text = jsonWeather["main"].stringValue

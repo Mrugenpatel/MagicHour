@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		374D50BDE74D9BC173EE0078 /* Pods_MagicHour1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BA6FBC5E3785DFCDCBAD5B4 /* Pods_MagicHour1.framework */; };
+		14BAF9EA1A84D94CF6167E5E /* Pods_MagicHour1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCB81170A576CDE408442631 /* Pods_MagicHour1.framework */; };
 		42BF5B4523C80EF3004F4B34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF5B4423C80EF3004F4B34 /* AppDelegate.swift */; };
 		42BF5B4723C80EF3004F4B34 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BF5B4623C80EF3004F4B34 /* ViewController.swift */; };
 		42BF5B4A23C80EF3004F4B34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42BF5B4823C80EF3004F4B34 /* Main.storyboard */; };
@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42712A5423D8769500D54534 /* MagicHour1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicHour1.entitlements; sourceTree = "<group>"; };
 		42BF5B4123C80EF3004F4B34 /* MagicHour1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicHour1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42BF5B4423C80EF3004F4B34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42BF5B4623C80EF3004F4B34 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,9 +24,9 @@
 		42BF5B4B23C80EF4004F4B34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42BF5B4E23C80EF4004F4B34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42BF5B5023C80EF4004F4B34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		656FAD4C5F416628AA3292BA /* Pods-MagicHour1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicHour1.release.xcconfig"; path = "Target Support Files/Pods-MagicHour1/Pods-MagicHour1.release.xcconfig"; sourceTree = "<group>"; };
-		8BA6FBC5E3785DFCDCBAD5B4 /* Pods_MagicHour1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicHour1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AD116FFA8108179F4F144025 /* Pods-MagicHour1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicHour1.debug.xcconfig"; path = "Target Support Files/Pods-MagicHour1/Pods-MagicHour1.debug.xcconfig"; sourceTree = "<group>"; };
+		9DE6DE18E6681318D5A2A43C /* Pods-MagicHour1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicHour1.release.xcconfig"; path = "Target Support Files/Pods-MagicHour1/Pods-MagicHour1.release.xcconfig"; sourceTree = "<group>"; };
+		DCB81170A576CDE408442631 /* Pods_MagicHour1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicHour1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD9AA90ED10449EE1F03A8AC /* Pods-MagicHour1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicHour1.debug.xcconfig"; path = "Target Support Files/Pods-MagicHour1/Pods-MagicHour1.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374D50BDE74D9BC173EE0078 /* Pods_MagicHour1.framework in Frameworks */,
+				14BAF9EA1A84D94CF6167E5E /* Pods_MagicHour1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,8 +44,8 @@
 		3AAC694880DD38109A9483C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AD116FFA8108179F4F144025 /* Pods-MagicHour1.debug.xcconfig */,
-				656FAD4C5F416628AA3292BA /* Pods-MagicHour1.release.xcconfig */,
+				FD9AA90ED10449EE1F03A8AC /* Pods-MagicHour1.debug.xcconfig */,
+				9DE6DE18E6681318D5A2A43C /* Pods-MagicHour1.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -55,7 +56,7 @@
 				42BF5B4323C80EF3004F4B34 /* MagicHour1 */,
 				42BF5B4223C80EF3004F4B34 /* Products */,
 				3AAC694880DD38109A9483C3 /* Pods */,
-				EE992FD0A031290A4A2CC092 /* Frameworks */,
+				D7DFC5BE6E60D479351ABCEB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +71,7 @@
 		42BF5B4323C80EF3004F4B34 /* MagicHour1 */ = {
 			isa = PBXGroup;
 			children = (
+				42712A5423D8769500D54534 /* MagicHour1.entitlements */,
 				42BF5B4423C80EF3004F4B34 /* AppDelegate.swift */,
 				42BF5B4623C80EF3004F4B34 /* ViewController.swift */,
 				42BF5B4823C80EF3004F4B34 /* Main.storyboard */,
@@ -80,10 +82,10 @@
 			path = MagicHour1;
 			sourceTree = "<group>";
 		};
-		EE992FD0A031290A4A2CC092 /* Frameworks */ = {
+		D7DFC5BE6E60D479351ABCEB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				8BA6FBC5E3785DFCDCBAD5B4 /* Pods_MagicHour1.framework */,
+				DCB81170A576CDE408442631 /* Pods_MagicHour1.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -95,11 +97,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 42BF5B5323C80EF4004F4B34 /* Build configuration list for PBXNativeTarget "MagicHour1" */;
 			buildPhases = (
-				A7C5DD81F40EF1BABCFC36F3 /* [CP] Check Pods Manifest.lock */,
+				1048A2E6767C8566D0376BED /* [CP] Check Pods Manifest.lock */,
 				42BF5B3D23C80EF3004F4B34 /* Sources */,
 				42BF5B3E23C80EF3004F4B34 /* Frameworks */,
 				42BF5B3F23C80EF3004F4B34 /* Resources */,
-				85F1CBCD537720B2FB150884 /* [CP] Embed Pods Frameworks */,
+				127DBD778BB344B054CA0BAB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -157,24 +159,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		85F1CBCD537720B2FB150884 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A7C5DD81F40EF1BABCFC36F3 /* [CP] Check Pods Manifest.lock */ = {
+		1048A2E6767C8566D0376BED /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -194,6 +179,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127DBD778BB344B054CA0BAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicHour1/Pods-MagicHour1-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -348,9 +350,10 @@
 		};
 		42BF5B5423C80EF4004F4B34 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AD116FFA8108179F4F144025 /* Pods-MagicHour1.debug.xcconfig */;
+			baseConfigurationReference = FD9AA90ED10449EE1F03A8AC /* Pods-MagicHour1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MagicHour1/MagicHour1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DP37SM992;
 				INFOPLIST_FILE = MagicHour1/Info.plist;
@@ -358,7 +361,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHour1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHourApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -367,9 +370,10 @@
 		};
 		42BF5B5523C80EF4004F4B34 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 656FAD4C5F416628AA3292BA /* Pods-MagicHour1.release.xcconfig */;
+			baseConfigurationReference = 9DE6DE18E6681318D5A2A43C /* Pods-MagicHour1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = MagicHour1/MagicHour1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5DP37SM992;
 				INFOPLIST_FILE = MagicHour1/Info.plist;
@@ -377,7 +381,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHour1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHourApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
