@@ -362,9 +362,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHourApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MagicHour1;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -382,9 +382,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.higuchiryunosuke.MagicHourApp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MagicHour1;
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
